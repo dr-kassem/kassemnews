@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+backend/kassem_news.db
+backend/dbg*.py
+backend/dbg*.db
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+frontend/.env.local
+.frontend*.env
+
+# Env & secrets
+.env
+.env.local
+.env.production
+*.pem
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
